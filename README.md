@@ -24,7 +24,7 @@ apiandtesting provides unittest with RBAC background. showcases authorization wi
 ### How to test
 while testing the api locally user only needs to download that folder `apiandtesting`.<br>
 or should `src` to that folder (if all repo downloaded). apiandtesting folder also have its `Readme`, please refer to it.<br>
-Reviewers may notice that app endpoints and api endpoints operate identical functions (so tests are healthy), but while one renders template (for frontend), other jsonifys (for testing.<br><br>
+Reviewers may notice that app endpoints and api endpoints operate identical functions (so tests are healthy), but while one renders template (for frontend), other jsonifys (for testing).<br><br>
 
 ### Roles And permissions<br>
         Casting Assistant
@@ -37,6 +37,12 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
                 - All permissions a Casting Director has and…
                 - Add or delete a movie from the database
                 
+### Application Endpoints
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
                 
 
   
