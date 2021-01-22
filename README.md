@@ -5,6 +5,11 @@ https://husamcast.herokuapp.com/
 Frontend completly operates, please login with below credentials to use it:<br>
 Thanks to `jinja` you can only see relevant permissions according to your roles on the menu.<br>
 
+### Env tech stacks
+Latest versions of Python and PostgreSQL <br>
+And for dependincies please pip the requirements.txt <br>
+`pip install -r requirements.txt`
+
 ### Login Credentials<br>
         Casting Assistant
                 - name:ca@ca.com
