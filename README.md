@@ -48,27 +48,40 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
     <th>requires</th>
     <th>returns</th>
   </tr>
-  <tr>
-    <td>casting</td>
-    <td>none</td>
-    <td>renders a template of RBAC menu</td>
-    
-    <td>/actors/edit</td>
-  </tr>
-  <tr>
-        <td>actors/delete/</td>
-    <td>none</td>
-    <td>none</td>
-    <td>executes db.delete returns to actors menu</td>
-  </tr>
-  <tr>
-    <td>renders a template of RBAC menu</td>
-    <td>renders a template of all artists query</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
+        <tr>
    <td></td>
     <td></td>
     <td></td>
   </tr>
+        <tr>
+   <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+        <tr>
+   <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+        <tr>
+   <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+        <tr>
+   <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+        <tr>
+   <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+        <tr>
+   <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  >
 </table>
