@@ -3,7 +3,7 @@
 App resides on the link: <br>
 https://husamcast.herokuapp.com/
 Frontend completly operates, please login with below credentials to use it:<br>
-Thanks to `jinja` you can only see relevant permissions according to your roles on the menu.<br>
+Thanks to `jinja`  and `Auth0 Python` implentation you can only see relevant permissions according to your roles on the menu.<br>
 
 ### Env tech stacks
 Latest versions of Python and PostgreSQL <br>
