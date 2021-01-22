@@ -1,4 +1,3 @@
-# husamcast
 ## How to use the app?
 App resides on the link: <br>
 https://husamcast.herokuapp.com/ <br>
