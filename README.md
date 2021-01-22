@@ -50,7 +50,7 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
   </tr>
   <tr>
     <td>casting</td>
-    <td>actors</td>
+    <td>none</td>
     <td>actors/delete/</td>
     <td>/actors/edit</td
   </tr>
