@@ -17,16 +17,16 @@ while testing the api locally user only needs to download that folder (apiandtes
 or should 'src' to that folder (if all repo downloaded). apiandtesting folder also have its Readme, please refer to it.<br>
 Reviewers may notice that app endpoints and api endpoints operate identical functions (so tests are healthy), but while one renders template (for frontend), other jsonifys (for testing.<br><br>
 
-Roles And permissions<br>
+## Roles And permissions<br>
         Casting Assistant<br>
-                Can view actors and movies<br>
+                - Can view actors and movies<br>
         Casting Director<br>
-                All permissions a Casting Assistant has and…<br>
-                Add or delete an actor from the database<br>
-                Modify actors or movies<br>
+                - All permissions a Casting Assistant has and…<br>
+                - Add or delete an actor from the database<br>
+                - Modify actors or movies<br>
         Executive Producer<br>
-                All permissions a Casting Director has and…<br>
-                Add or delete a movie from the database<br>
+                - All permissions a Casting Director has and…<br>
+                - Add or delete a movie from the database<br>
                 
                 
 
