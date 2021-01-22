@@ -3,13 +3,15 @@
 App resides on the link: <br>
 https://husamcast.herokuapp.com/
 Frontend completly operates, please login with below credentials to use it:<br>
-You only see relevant permissions to your roles as a frontend menu.<br>
+You only see relevant permissions according to your roles as a frontend menu.<br>
+
+### Credentials
 Casting assistant<br>
-        name:ca@ca.com     pass:Aa123456<br>
+        * name:ca@ca.com     pass:Aa123456<br>
 Casting director<br>
-        name:cd@cd.com     pass:Aa123456<br>
+        * name:cd@cd.com     pass:Aa123456<br>
 Execcutive producer<br>
-        name:ca@ca.com     pass:Aa123456<br>
+        * name:ca@ca.com     pass:Aa123456<br>
         
 While Frontend showcases the use of authentication with id_tokens,<br>
 apiandtesting provides unittest with RBAC background. showcases authorization with access_tokens,<br>
