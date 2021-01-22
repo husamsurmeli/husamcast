@@ -3,7 +3,7 @@
 App resides on the link: <br>
 https://husamcast.herokuapp.com/
 Frontend completly operates, please login with below credentials to use it:<br>
-You only see relevant permissions according to your roles as a frontend menu.<br>
+Thanks to `jinja` you can only see relevant permissions according to your roles on the menu.<br>
 
 ### Login Credentials<br>
         Casting Assistant
@@ -22,8 +22,8 @@ While Frontend showcases the use of authentication with id_tokens,<br>
 apiandtesting provides unittest with RBAC background. showcases authorization with access_tokens,<br>
 
 ### How to test
-while testing the api locally user only needs to download that folder (apiandtesting).<br>
-or should 'src' to that folder (if all repo downloaded). apiandtesting folder also have its Readme, please refer to it.<br>
+while testing the api locally user only needs to download that folder `apiandtesting`.<br>
+or should `src` to that folder (if all repo downloaded). apiandtesting folder also have its `Readme`, please refer to it.<br>
 Reviewers may notice that app endpoints and api endpoints operate identical functions (so tests are healthy), but while one renders template (for frontend), other jsonifys (for testing.<br><br>
 
 ### Roles And permissions<br>
