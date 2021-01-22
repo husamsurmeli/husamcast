@@ -39,27 +39,29 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
                 
 
 
-<h2>HTML Table</h2>
+<h2>Application Endpoints</h2>
+<h3>Some endpoints haven't covered here for security. (login, callback etc.)</h3>
 
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>route</th>
+    <th>requires</th>
+    <th>returns</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>casting</td>
+    <td>actors</td>
+    <td>actors/delete/</td>
+    <td>/actors/edit</td
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>none</td>
+    <td>none</td>
+    <td>executes db.delete returns to actors menu</td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
+    <td>renders a template of RBAC menu</td>
+    <td>renders a template of all artists query</td>
     <td>Austria</td>
   </tr>
   <tr>
