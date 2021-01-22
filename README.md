@@ -1,7 +1,7 @@
 # husamcast
 ## How to use the app?
 App resides on the link: <br>
-https://husamcast.herokuapp.com/
+https://husamcast.herokuapp.com/ <br>
 Frontend completly operates, please login with below credentials to use it:<br>
 Thanks to `jinja`  and `Auth0 Python` implentation you can only see relevant permissions according to your roles on the menu.<br>
 
