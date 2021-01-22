@@ -23,7 +23,7 @@ And for dependincies please pip the requirements.txt <br>
  
 ### Authentication and Authorization
 While Frontend showcases the use of authentication with id_tokens,<br>
-apiandtesting provides unittest with RBAC background. showcases authorization with access_tokens,<br>
+`apiandtesting` provides unittest with RBAC background. showcases authorization with access_tokens,<br>
 
 ### How to test
 while testing the api locally user only needs to download that folder `apiandtesting`.<br>
