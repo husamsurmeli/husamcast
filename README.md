@@ -27,7 +27,7 @@ While Frontend showcases the use of authentication with id_tokens,<br>
 
 ### How to test
 while testing the api locally user only needs to download that folder `apiandtesting`.<br>
-or should `src` to that folder (if all repo downloaded). apiandtesting folder also have its `Readme`, please refer to it.<br>
+or should `cd` to that folder (if all repo downloaded). apiandtesting folder also have its `Readme`, please refer to it.<br>
 Reviewers may notice that app endpoints and api endpoints operate identical functions (so tests are healthy), but while one renders template (for frontend), other jsonifys (for testing).<br><br>
 
 ### Roles And permissions<br>
