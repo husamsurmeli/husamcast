@@ -1,7 +1,10 @@
-#----------------------------------------------------------------------------#
-# Imports
-#----------------------------------------------------------------------------#
-
+import json
+from os import environ as env
+from flask import Flask
+from flask import jsonify
+from flask import redirect
+from flask import render_template
+from loginhelper import *
 import json
 from flask import Flask, render_template, request, Response, redirect, url_for, jsonify
 from flask_moment import Moment
@@ -18,14 +21,38 @@ moment = Moment(app)
 app.config.from_object('config')
 db.init_app(app)
 migrate = Migrate(app, db)
+app.secret_key = constants.SECRET_KEY
+app.debug = True
+
+@app.errorhandler(Exception)
+def handle_auth_error(ex):
+  response = jsonify(message=str(ex))
+  response.status_code = (ex.code if isinstance(ex, HTTPException) else 500)
+  return response
 
 
 @app.route('/')
 def index():
   return render_template('pages/home.html')
+
+@app.route('/callback')
+def callback_handling():
+  auth0.authorize_access_token()
+  resp = auth0.get('userinfo')
+  userinfo = resp.json()
+
+  session[constants.JWT_PAYLOAD] = userinfo
+  session[constants.PROFILE_KEY] = {
+    'user_id': userinfo['sub'],
+    'name': userinfo['name'],
+    'picture': userinfo['picture']
+    }
+    return redirect('/casting')
+
+
 @app.route('/casting')
 def caating():
-  return render_template('casting.html')
+  return render_template('casting.html', userinfo=session[constants.PROFILE_KEY] )
 
 @app.route('/actors')
 def actors():

@@ -9,6 +9,7 @@
   <br>
   <li><a href="/movies"><button class="btn btn-primary btn-lg">Movies</button></a></li>
   <br>
+  {% if userinfo['name'] == 'cd@cd.com' or userinfo['name'] == 'ep@ep.com' %}
   <li><a href="/actors/create"><button class="btn btn-primary btn-lg">Add Actors</button></a></li>
   <br>
   <li><a href="/movies/create"><button class="btn btn-primary btn-lg">Add Movies</button></a></li>
@@ -17,10 +18,15 @@
   <br>
   <li><a href="/movies/delete"><button class="btn btn-primary btn-lg">Delete Movies</button></a></li>
   <br>
+  {% endif %}
+  {% if userinfo['name'] == 'ep@ep.com' %}
   <li><a href="/actors/edit"><button class="btn btn-primary btn-lg">Edit Actors</button></a></li>
   <br>
   <li><a href="/movies/edit"><button class="btn btn-primary btn-lg">Edit Movies</button></a></li>
+  {% endif %}
 </ul>  
-
+<br>
+<br>
+<a id="qsLogoutBtn" class="btn btn-primary btn-lg btn-logout" href="/logout">Logout</a>
 </body>
 </html>
