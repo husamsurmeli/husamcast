@@ -6,9 +6,9 @@ Frontend completly operates, please login with below credentials to use it:<br>
 You only see relevant permissions according to your roles as a frontend menu.<br>
 
 ### Credentials
-Casting assistant
-        *name:ca@ca.com
-        *pass:Aa123456
+-Casting assistant
+        * name:ca@ca.com
+        * pass:Aa123456
 Casting director<br>
         name:cd@cd.com     pass:Aa123456
 Execcutive producer
