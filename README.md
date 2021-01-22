@@ -40,7 +40,7 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
 
 
 <h2>Application Endpoints</h2>
-<h3>Some endpoints haven't covered here for security. (login, callback etc.)</h3>
+<h4>Some endpoints haven't covered here for security. (login, callback etc.)</h4>
 
 <table>
   <tr>
@@ -83,5 +83,9 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
     <td></td>
     <td></td>
   </tr>
-  >
+  <tr>
+   <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
