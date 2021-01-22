@@ -9,5 +9,5 @@ Badnews is it may require couple seconds more compared to local database. But th
     `flask run`
 Though, since there is no frontend you can see the health of the api only with one route. @app.route('/')
 
-JWT for each role is stored in `models.py`
+JWT for each role is stored in `test.py`
 
