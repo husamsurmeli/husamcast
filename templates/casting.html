@@ -10,9 +10,9 @@
   <li><a href="/movies"><button class="btn btn-primary btn-lg">Movies</button></a></li>
   <br>
   {% if userinfo['name'] == 'cd@cd.com' or userinfo['name'] == 'ep@ep.com' %}
-  <li><a href="/actors/create"><button class="btn btn-primary btn-lg">Add Actors</button></a></li>
+  <li><a href="/actors/edit"><button class="btn btn-primary btn-lg">Edit Actors</button></a></li>
   <br>
-  <li><a href="/movies/create"><button class="btn btn-primary btn-lg">Add Movies</button></a></li>
+  <li><a href="/movies/edit"><button class="btn btn-primary btn-lg">Edit Movies</button></a></li>
   <br>
   <li><a href="/actors/delete"><button class="btn btn-primary btn-lg">Delete Actors</button></a></li>
   <br>
@@ -20,9 +20,9 @@
   <br>
   {% endif %}
   {% if userinfo['name'] == 'ep@ep.com' %}
-  <li><a href="/actors/edit"><button class="btn btn-primary btn-lg">Edit Actors</button></a></li>
+  <li><a href="/actors/create"><button class="btn btn-primary btn-lg">Add Actors</button></a></li>
   <br>
-  <li><a href="/movies/edit"><button class="btn btn-primary btn-lg">Edit Movies</button></a></li>
+  <li><a href="/movies/create"><button class="btn btn-primary btn-lg">Add Movies</button></a></li>
   {% endif %}
 </ul>  
 <br>
