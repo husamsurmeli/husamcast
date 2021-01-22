@@ -41,51 +41,55 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
 
 <h2>Application Endpoints</h2>
 <h4>Some endpoints haven't covered here for security. (login, callback etc.)</h4>
-
 <table>
-  <tr>
-    <th>route</th>
-    <th>requires</th>
-    <th>returns</th>
-  </tr>
-        <tr>
-   <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-        <tr>
-   <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-        <tr>
-   <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-        <tr>
-   <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-        <tr>
-   <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-        <tr>
-   <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-        <tr>
-   <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-   <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+    <tr>
+      <th>route</th>
+      <th>requires</th>
+      <th>returns</th>
+    </tr>
+          <tr>
+     <td>casting</td>
+      <td>none</td>
+      <td>renders a template of RBAC menu</td>
+    </tr>
+          <tr>
+     <td>actors</td>
+      <td>none</td>
+      <td>renders a template of all artists query</td>
+    </tr>
+          <tr>
+     <td>actors/delete/</td>
+      <td>integer</td>
+      <td>executes db.delete returns to actors route</td>
+    </tr>
+          <tr>
+     <td>actors/edit/</td>
+      <td>integer and form data</td>
+      <td>executes db.update returns to actors route</td>
+    </tr>
+          <tr>
+     <td>movies/edit/</td>
+      <td>integer and form data</td>
+      <td>executes db.update returns to movies route</td>
+    </tr>
+          <tr>
+     <td>movies/delete/</td>
+      <td>integer</td>
+      <td>executes db.delete returns to movies route</td>
+    </tr>
+          <tr>
+     <td>movies</td>
+      <td>none</td>
+      <td>renders a template of all movies query</td>
+    </tr>
+    <tr>
+     <td>actors/create</td>
+      <td>form data</td>
+      <td>executes db.add returns to actors route</td>
+    </tr>
+    <tr>
+        <td>movies/create</td>
+         <td>form data</td>
+         <td>executes db.delete returns to movies route</td>
+       </tr>
+  </table>
