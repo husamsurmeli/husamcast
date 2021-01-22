@@ -51,10 +51,12 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
   <tr>
     <td>casting</td>
     <td>none</td>
-    <td>actors/delete/</td>
-    <td>/actors/edit</td
+    <td>renders a template of RBAC menu</td>
+    
+    <td>/actors/edit</td>
   </tr>
   <tr>
+        <td>actors/delete/</td>
     <td>none</td>
     <td>none</td>
     <td>executes db.delete returns to actors menu</td>
@@ -65,18 +67,8 @@ Reviewers may notice that app endpoints and api endpoints operate identical func
     <td>Austria</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
+   <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
