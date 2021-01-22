@@ -7,11 +7,12 @@ You only see relevant permissions according to your roles as a frontend menu.<br
 
 ### Credentials
 Casting assistant
-        - name:ca@ca.com     pass:Aa123456
+        *name:ca@ca.com
+        *pass:Aa123456
 Casting director<br>
-        - name:cd@cd.com     pass:Aa123456
+        name:cd@cd.com     pass:Aa123456
 Execcutive producer
-        - name:ca@ca.com     pass:Aa123456
+        name:ca@ca.com     pass:Aa123456
         
 While Frontend showcases the use of authentication with id_tokens,<br>
 apiandtesting provides unittest with RBAC background. showcases authorization with access_tokens,<br>
