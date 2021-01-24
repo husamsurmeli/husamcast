@@ -6,9 +6,9 @@ from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN = 'cfshp.eu.auth0.com'
+AUTH0_DOMAIN = ''
 ALGORITHMS = ['RS256']
-API_AUDIENCE = 'cfshp'
+API_AUDIENCE = ''
 
 # AuthError Exception
 
